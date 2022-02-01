@@ -57,3 +57,19 @@ body {
   background-image: url("couple.jpg");
   min-height: 400px;
 }
+
+/* NOT PARALLAX STYLE */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.fa-github-square:before,
+.fa-linkedin:before,
+.fa-facebook-square:before {
+  font-size: 40px;
+  margin: 0 10px;
+  color: #F2E7D2;
+}
